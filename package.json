@@ -1,0 +1,23 @@
+{
+  "name": "statit_js",
+  "version": "1.0.0-beta",
+  "description": "A package to access the [Statit](https://gostatit.com) API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyboardcat1/statit_js.git"
+  },
+  "keywords": [
+    "Statit",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyboardcat1/statit_js/issues"
+  },
+  "homepage": "https://github.com/keyboardcat1/statit_js#readme"
+}
