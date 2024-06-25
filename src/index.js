@@ -97,68 +97,68 @@ class FunctionsAPI {
     return response.json();
   }
 
-  async getObs(id, end) {
-    return this.post('getObs', { id, end });
+  async getValue(id, endDate) {
+    return this.post('getValue', { id, endDate });
   }
 
-  async getObsSum(id, end, periods) {
-    return this.post('getObsSum', { id, end, periods });
+  async getValueSum(id, endDate, periods) {
+    return this.post('getValueSum', { id, endDate, periods });
   }
 
-  async getObsAverage(id, end, periods) {
-    return this.post('getObsAverage', { id, end, periods });
+  async getValueAverage(id, endDate, periods) {
+    return this.post('getValueAverage', { id, endDate, periods });
   }
 
-  async getObsChange(id, end, periods) {
-    return this.post('getObsChange', { id, end, periods });
+  async getValueChange(id, endDate, periods) {
+    return this.post('getValueChange', { id, endDate, periods });
   }
 
-  async getObsChangePercent(id, end, periods) {
-    return this.post('getObsChangePercent', { id, end, periods });
+  async getValueChangePercent(id, endDate, periods) {
+    return this.post('getValueChangePercent', { id, endDate, periods });
   }
 
-  async getObsDate(id, end) {
-    return this.post('getObsDate', { id, end });
+  async getValueDate(id, endDate) {
+    return this.post('getValueDate', { id, endDate });
   }
 
-  async getPoint(id, end) {
-    return this.post('getPoint', { id, end });
+  async getObs(id, endDate) {
+    return this.post('getObs', { id, endDate });
   }
 
-  async getPointSum(id, end, periods) {
-    return this.post('getPointSum', { id, end, periods });
+  async getObsSum(id, endDate, periods) {
+    return this.post('getObsSum', { id, endDate, periods });
   }
 
-  async getPointAverage(id, end, periods) {
-    return this.post('getPointAverage', { id, end, periods });
+  async getObsAverage(id, endDate, periods) {
+    return this.post('getObsAverage', { id, endDate, periods });
   }
 
-  async getPointChange(id, end, periods) {
-    return this.post('getPointChange', { id, end, periods });
+  async getObsChange(id, endDate, periods) {
+    return this.post('getObsChange', { id, endDate, periods });
   }
 
-  async getPointChangePercent(id, end, periods) {
-    return this.post('getPointChangePercent', { id, end, periods });
+  async getObsChangePercent(id, endDate, periods) {
+    return this.post('getObsChangePercent', { id, endDate, periods });
   }
 
-  async getSerie(id, start, end) {
-    return this.post('getSerie', { id, start, end });
+  async getSerie(id, startDate, endDate) {
+    return this.post('getSerie', { id, startDate, endDate });
   }
 
-  async getSerieSum(id, start, end, periods) {
-    return this.post('getSerieSum', { id, start, end, periods });
+  async getSerieSum(id, startDate, endDate, periods) {
+    return this.post('getSerieSum', { id, startDate, endDate, periods });
   }
 
-  async getSerieAverage(id, start, end, periods) {
-    return this.post('getSerieAverage', { id, start, end, periods });
+  async getSerieAverage(id, startDate, endDate, periods) {
+    return this.post('getSerieAverage', { id, startDate, endDate, periods });
   }
 
-  async getSerieChange(id, start, end, periods) {
-    return this.post('getSerieChange', { id, start, end, periods });
+  async getSerieChange(id, startDate, endDate, periods) {
+    return this.post('getSerieChange', { id, startDate, endDate, periods });
   }
 
-  async getSerieChangePercent(id, start, end, periods) {
-    return this.post('getSerieChangePercent', { id, start, end, periods });
+  async getSerieChangePercent(id, startDate, endDate, periods) {
+    return this.post('getSerieChangePercent', { id, startDate, endDate, periods });
   }
 }
 
